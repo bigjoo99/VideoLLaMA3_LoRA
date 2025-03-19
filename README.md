@@ -1,78 +1,17 @@
-<p align="center">
-    <img src="https://github.com/DAMO-NLP-SG/VideoLLaMA3/blob/main/assets/logo.png?raw=true" width="150" style="margin-bottom: 0.2;"/>
-<p>
+## Bigjoo file
+**[LoRA fine-tuning]** 
 
-<h3 align="center"><a href="https://arxiv.org/pdf/2501.13106" style="color:#9C276A">
-VideoLLaMA 3: Frontier Multimodal Foundation Models for Video Understanding</a></h3>
-<h5 align="center"> If our project helps you, please give us a star ⭐ on GitHub to support us. 🙏🙏 </h2>
+```bash
+bash scripts/train_lora/lora_videollama3_2b.sh
+```
 
+**[Evaluation_BLEU]**
 
-<h5 align="center">
-
-[![hf_space](https://img.shields.io/badge/🤗-Image_Demo-9C276A.svg)](https://huggingface.co/spaces/lixin4ever/VideoLLaMA3-Image)
-[![hf_space](https://img.shields.io/badge/🤗-Video_Demo-9C276A.svg)](https://huggingface.co/spaces/lixin4ever/VideoLLaMA3)
-[![hf_checkpoint](https://img.shields.io/badge/🤗-Checkpoints-9C276A.svg)](https://huggingface.co/collections/DAMO-NLP-SG/videollama3-678cdda9281a0e32fe79af15) <br>
-[![License](https://img.shields.io/badge/License-Apache%202.0-yellow)](https://github.com/DAMO-NLP-SG/VideoLLaMA3/blob/main/LICENSE) 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FDAMO-NLP-SG%2FVideoLLaMA3&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitor&edge_flat=false)](https://hits.seeyoufarm.com)
-[![GitHub issues](https://img.shields.io/github/issues/DAMO-NLP-SG/VideoLLaMA3?color=critical&label=Issues)](https://github.com/DAMO-NLP-SG/VideoLLaMA3/issues?q=is%3Aopen+is%3Aissue)
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/DAMO-NLP-SG/VideoLLaMA3?color=success&label=Issues)](https://github.com/DAMO-NLP-SG/VideoLLaMA3/issues?q=is%3Aissue+is%3Aclosed)  <br>
-[![hf_paper](https://img.shields.io/badge/🤗-Paper%20In%20HF-red.svg)](https://huggingface.co/papers/2501.13106)
-[![arXiv](https://img.shields.io/badge/Arxiv-2501.13106-AD1C18.svg?logo=arXiv)](https://arxiv.org/abs/2501.13106) 
-</h5>
-
-<details open><summary>💡 Some other multimodal-LLM projects from our team may interest you ✨. </summary><p>
-<!--  may -->
-
-> [**VideoLLaMA 2: Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs**](https://github.com/DAMO-NLP-SG/VideoLLaMA2) <br>
-> Zesen Cheng*, Sicong Leng*, Hang Zhang*, Yifei Xin*, Xin Li*, Guanzheng Chen, Yongxin Zhu, Wenqi Zhang, Ziyang Luo, Deli Zhao, Lidong Bing <br>
-[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/DAMO-NLP-SG/VideoLLaMA2)  [![github](https://img.shields.io/github/stars/DAMO-NLP-SG/VideoLLaMA2.svg?style=social)](https://github.com/DAMO-NLP-SG/VideoLLaMA2) [![arXiv](https://img.shields.io/badge/Arxiv-2406.07476-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2406.07476) <be> 
-
-> [**VideoRefer Suite: Advancing Spatial-Temporal Object Understanding with Video LLM**](https://arxiv.org/abs/2501.00599) <br>
-> Yuqian Yuan, Hang Zhang, Wentong Li, Zesen Cheng, Boqiang Zhang, Long Li, Xin Li, Deli Zhao, Wenqiao Zhang, Yueting Zhuang, Jianke Zhu, Lidong Bing <br>
-[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/DAMO-NLP-SG/VideoRefer)  [![github](https://img.shields.io/github/stars/DAMO-NLP-SG/VideoRefer.svg?style=social)](https://github.com/DAMO-NLP-SG/VideoRefer)  [![arXiv](https://img.shields.io/badge/Arxiv-2501.00599-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2501.00599) <br>
-
-> [**VCD: Mitigating Object Hallucinations in Large Vision-Language Models through Visual Contrastive Decoding**](https://arxiv.org/abs/2311.16922) <br>
-> Sicong Leng*, Hang Zhang*, Guanzheng Chen, Xin Li, Shijian Lu, Chunyan Miao, Lidong Bing <br>
-[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/DAMO-NLP-SG/VCD)  [![github](https://img.shields.io/github/stars/DAMO-NLP-SG/VCD.svg?style=social)](https://github.com/DAMO-NLP-SG/VCD)  [![arXiv](https://img.shields.io/badge/Arxiv-2311.16922-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2311.16922) <br>
-
-> [**The Curse of Multi-Modalities: Evaluating Hallucinations of Large Multimodal Models across Language, Visual, and Audio**](https://arxiv.org/abs/2410.12787) <br>
-> Sicong Leng*, Yun Xing*, Zesen Cheng*, Yang Zhou, Hang Zhang, Xin Li, Deli Zhao, Shijian Lu, Chunyan Miao, Lidong Bing <br>
-[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/DAMO-NLP-SG/CMM)  [![github](https://img.shields.io/github/stars/DAMO-NLP-SG/CMM.svg?style=social)](https://github.com/DAMO-NLP-SG/CMM)  [![arXiv](https://img.shields.io/badge/Arxiv-2410.12787-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2410.12787) <br>
-
-> [**Breaking the Memory Barrier: Near Infinite Batch Size Scaling for Contrastive Loss**](https://arxiv.org/abs/2410.17243) <br>
-> Zesen Cheng*, Hang Zhang*, Kehan Li*, Sicong Leng, Zhiqiang Hu, Fei Wu, Deli Zhao, Xin Li, Lidong Bing <br>
-[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/DAMO-NLP-SG/Inf-CLIP)  [![github](https://img.shields.io/github/stars/DAMO-NLP-SG/Inf-CLIP.svg?style=social)](https://github.com/DAMO-NLP-SG/Inf-CLIP)  [![arXiv](https://img.shields.io/badge/Arxiv-2410.17243-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2410.17243) <br>
+```bash
+python evaluation/eval.py
+```
 
 
-
-
-</p></details>
-
-
-## 📰 News
-
-* **[2025.02.07]**  🔥🔥 Release our re-captioned high-quality image-text dataset [VL3-Syn7M](https://huggingface.co/datasets/DAMO-NLP-SG/VL3-Syn7M).
-* **[2025.01.26]**  🔥🔥 As of Jan 26, VideoLLaMA3-7B is the best 7B-sized model on [LVBench](https://huggingface.co/spaces/THUDM/LVBench) leaderboard.
-* **[2025.01.24]**  🔥🔥 As of Jan 24, VideoLLaMA3-7B is the best 7B-sized model on [VideoMME](https://video-mme.github.io/home_page.html) leaderboard.
-* **[2025.01.22]**  👋👋 Release technical report of VideoLLaMA 3. If you have works closely related to VideoLLaMA 3 but not mentioned in the paper, feel free to let us know.
-* **[2025.01.21]**  Release models and inference code of VideoLLaMA 3.
-
-## 🌟 Introduction
-VideoLLaMA 3 is a series of multimodal foundation models with frontier image and video understanding capacity.
-
-<img src="assets/performance.png" style="max-width: 100%; height: auto;">
-
-<details>
-  <summary>💡Click here to show detailed performance on video benchmarks</summary>
-  <img src="https://github.com/user-attachments/assets/118e7a56-0c3e-4132-b0b5-f516d0654338" style="max-width: 100%; height: auto;">
-  <img src="https://github.com/user-attachments/assets/3524cefe-01d3-4031-8620-f85dc38e3d02" style="max-width: 100%; height: auto;">
-</details>
-
-<details>
-  <summary>💡Click here to show detailed performance on image benchmarks</summary>
-  <img src="assets/results_image_2b.png" style="max-width: 100%; height: auto;">
-  <img src="assets/results_image_7b.png" style="max-width: 100%; height: auto;">
-</details>
 
 ## 🛠️ Requirements and Installation
 
